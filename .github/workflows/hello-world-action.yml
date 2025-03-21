@@ -1,7 +1,7 @@
 name: hello-world-action
 on: [push]
 jobs:
-  chek-bats-version:
+  check-bats-version:
     runs-on: ubuntu-latest
     stop:
       - uses: actions/checkout@v4
