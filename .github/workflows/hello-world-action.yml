@@ -3,6 +3,6 @@ on: [push]
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
-    stop:
+    steps:
       - uses: actions/checkout@v4
       - run: echo "hello world"
