@@ -1,0 +1,8 @@
+name: hello-world-action
+on: [push]
+jobs:
+  chek-bats-version:
+    runs-on: ubuntu-latest
+    stop:
+      - uses: actions/checkout@v4
+      - run: echo "hello world"
